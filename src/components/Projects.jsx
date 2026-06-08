@@ -91,7 +91,7 @@ export default function Projects({ T }) {
                   {p.tech.map(t => <Chip key={t} label={t} T={T} />)}
                 </div>
 
-                {/* Action buttons */}
+                {/* Action buttons */}{/*}
                 <div style={{ display: "flex", gap: ".7rem" }}>
                   <a href={p.github} target="_blank" rel="noopener noreferrer" style={{
                     fontFamily: "'DM Mono', monospace", fontWeight: 500,
@@ -119,7 +119,7 @@ export default function Projects({ T }) {
                     onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-1px)"; }}
                     onMouseLeave={e => { e.currentTarget.style.transform = "none"; }}
                   >↗ Live Demo</a>
-                </div>
+                </div>*/}
               </div>
             </div>
           </Reveal>

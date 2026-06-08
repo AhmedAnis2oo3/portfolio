@@ -8,17 +8,16 @@ export const NAV_ITEMS = ["About", "Skills", "Experience", "Projects", "Contact"
 
 // ── RESUME / CV ──────────────────────────────────────────────────────────────
 // Place your CV PDF in /public/cv.pdf and set the path below.
-export const RESUME_URL = "/cv.pdf";
-
+export const RESUME_URL = "https://res.cloudinary.com/dyqzrey33/raw/upload/v1780936198/Ahmed_Anis_Resume-3_1_m2bjvn.docx";
 // ── EMAILJS CONFIG ────────────────────────────────────────────────────────────
 // Sign up free at https://www.emailjs.com
 // 1. Create a service (Gmail → ahmed007bakhai@gmail.com)
 // 2. Create an email template — map: {{from_name}}, {{from_email}}, {{subject}}, {{message}}
 // 3. Paste your IDs below
 export const EMAILJS_CONFIG = {
-  SERVICE_ID:  "YOUR_SERVICE_ID",   // e.g. "service_abc123"
-  TEMPLATE_ID: "YOUR_TEMPLATE_ID",  // e.g. "template_xyz789"
-  PUBLIC_KEY:  "YOUR_PUBLIC_KEY",   // e.g. "abcDEFghiJKL"
+  SERVICE_ID:  "service_Ahmed2003",   // e.g. "service_abc123"
+  TEMPLATE_ID: "template_Ahmed2003",  // e.g. "template_xyz789"
+  PUBLIC_KEY:  "RuTYQmUXFIIU0Crac",   // e.g. "abcDEFghiJKL"
 };
 
 // ── PROFILE ───────────────────────────────────────────────────────────────────
@@ -30,7 +29,7 @@ export const PROFILE = {
   email:      "Ahmed007bakhai@gmail.com",
   phone:      "+92 331 9761470",
   linkedin:   "https://linkedin.com/in/ahmedanis2003",
-  github:     "https://github.com/ahmedanis2003",
+  github:     "https://github.com/AhmedAnis2oo3",
   location:   "Karachi, Pakistan",
 };
 

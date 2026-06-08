@@ -254,7 +254,7 @@ export default function Hero({ T }) {
           >View Projects</a>
 
           {/* Download CV */}
-          <a href={RESUME_URL} download="Ahmed_Anis_CV.pdf" style={{
+          <a href={RESUME_URL} download="Ahmed_Anis_CV.docx" style={{
             fontFamily: "'DM Mono', monospace", fontWeight: 500,
             fontSize: ".75rem", letterSpacing: ".12em", textTransform: "uppercase",
             color: T.gold, background: "transparent",
